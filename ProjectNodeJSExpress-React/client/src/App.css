@@ -1,0 +1,159 @@
+
+.App {
+  text-align: center;
+}
+body{
+  background-image: url("/img/background4.jpg");
+}
+a {
+  text-decoration: none;
+}
+#recipeArea{
+    min-height: 30vh;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #efefef; width: 30%; margin: auto; border: 2px solid #dcdcdc; border-radius: 15px; padding:10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.xd2{
+  max-height: 14rem;
+}
+
+.informationMain {
+  display: flex; 
+  text-align:justify;
+  align-items: flex-start;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em; 
+  padding: 2em; 
+  background-color: rgba(255,255,255, 0.79) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 70%;
+  margin: auto;
+
+}
+
+
+
+h2{
+  text-align: center;
+}
+.aboutusMain{
+  padding: 2em; 
+  background-color: rgba(255,255,255, 0.79) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 70%;
+  margin: auto;
+}
+
+.column {
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.information2 {
+  width: 100%;
+  background-color: #212529; width: 15%; margin: auto; border: 2px solid #dcdcdc; border-radius: 8px; padding:10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 0px;
+  height: 70px;
+  margin-top: -10px;
+  margin-left: -2px;
+  color: white;
+  padding: 10px;
+}
+
+#fileinput{
+  max-width: 50px;
+}
+#text2{
+  margin-top: -25px;
+}
+.break{
+  background-color: gray;
+  width: 90%;
+  height: 1px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.recipe{
+  
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 1000px;
+    max-height: 75px;
+  
+}
+
+.xd{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#priceText{
+  padding: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+}
+
+#imageDetails{
+  max-height: 70vh;
+  max-width: 70vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.loginBtn{
+  width: 120px;
+}
+
+.CardsList{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 5vh;
+}
+.recipeText{
+  white-space: pre-wrap;
+}
+
+.login{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  width: 80%;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+textarea {
+  border-radius: 5px;
+  width: 98%;
+  height: 125px;
+  margin-bottom: 25px;
+}
+
+ button {
+  width: 80%;
+  height: 35px;
+  margin-top: 15px;
+} 
+
+ button:hover {
+  cursor: pointer;
+}
+
+#price {
+  width: 10%;
+  height: 30px;
+}
